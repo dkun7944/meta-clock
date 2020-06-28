@@ -191,13 +191,13 @@ void draw() {
       pushMatrix();
       translate(circleCenterX, circleCenterY);
       rotate(hand_angles[col][row][0]);
-      rect(-1*(handWidth/2), -1*(radius-3), handWidth, radius-2, handWidth/3, handWidth/2, 0, 0);
+      rect(-1*(handWidth/2), -1*(radius-3), handWidth, radius-3, handWidth/2, handWidth/2, 0, 0);
       popMatrix();
       
       pushMatrix();
       translate(circleCenterX, circleCenterY);
       rotate(hand_angles[col][row][1]);
-      rect(-1*(handWidth / 2), -1*(radius-3), handWidth, radius-2, handWidth/3, handWidth/2, 0, 0);
+      rect(-1*(handWidth / 2), -1*(radius-3), handWidth, radius-3, handWidth/2, handWidth/2, 0, 0);
       popMatrix();
     }
   }
